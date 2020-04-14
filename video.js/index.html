@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video JS</title>
+    <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="info">
+        <video id="my-video" class="video-js vjs-theme-forest" controls preload="auto" width="640" height="360" poster="poster.jpg" data-setup="{}">
+    <source src="1.mp4" type="video/mp4" />
+  </video>
+    </div>
+    <video id="bg-video" class="video-js vjs-default-skin" style="position:absolute;top:0;left:0;overflow:hidden;z-index:-998;" height="100%" width="100%" loop>
+          <source src="1.mp4" type="video/mp4">
+        </video>
+    <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
+    <script src="videojs-Background.js"></script>
+    <script>
+        videojs('bg-video').Background();
+    </script>
+
+</body>
+
+</html>

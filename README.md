@@ -14,3 +14,7 @@
 ## Swiper.js Library Tasks ##
 
 * ### [3D Swipe Slider](https://nil1729.github.io/Javascript-Library/swiper.js/)
+
+## Video.js Library Tasks ##
+
+* ### [Video Player with Background](https://nil1729.github.io/Javascript-Library/video.js/)
