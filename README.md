@@ -20,4 +20,4 @@
 * ### [Video Player with Background](https://nil1729.github.io/Javascript-Library/video.js/)
 
 ## Chart.js Library Tasks ##
-* ### [Zonal Annual Mean](https://nil1729.github.io/Javascript-Library/chart.js/)
+* ### [Zonal Annual Mean Temperature](https://nil1729.github.io/Javascript-Library/chart.js/)
